@@ -69,9 +69,7 @@ header.carousel .fill {
 
 /* Footer Styles */
 
-footer {
-    margin: 50px 0;
-}
+
 
 /* Responsive Styles */
 
@@ -102,24 +100,37 @@ footer {
 .navbar-inverse .navbar-brand {
     color: #000000;
     font-size: 30px;
+    border-right: solid;
+    border-width: 1px;
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #000000;
 }
 
 footer{
+    margin-top: 45%;
     position: absolute;
     right: 0;
     left: 0;
-    bottom: 0;
+    padding-top: 8PX;
     background-color: #a94442;
- 
-    height: 10px;
+    border-top: #000000;
+    height: 10%;
+    text-align: right;
+
 
 
 }
 
-ul{
-    list-style: none;
-    display: inline-block;;
+.social-icons a{
+    text-align: right;
+    font-size: 150%;
+    color: #000000;
 }
+
+.navbar-nav>li>a {
+    color: #000000;
+    
+}
+
+
