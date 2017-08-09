@@ -131,3 +131,24 @@ footer{
 }
 
 
+.BreakingNewsPanel{
+    height:100px;
+    background-color: #FFE4E1;
+    padding:20px;/*outside padding*/
+    border-radius: 2px;
+}
+
+.NewsItem{
+    background:#cccccc;
+    height:60px;
+    padding:20px;/*nside padding: */
+    border-radius: 2px;
+}
+
+.NewsImage{
+opacity:0.8;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+}
