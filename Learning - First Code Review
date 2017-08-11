@@ -1,0 +1,30 @@
+Website not upto the mark, atall. Bootstrap not studied.
+
+Problems in Website:
+1. Not Responsive.
+2. Content is not enough.
+3. Not pleasing to the eye.
+
+
+Questions asked about Bootstrap:
+
+Q1.  Is JQuery and Bootstrap.min.js dependant on each other?
+A1.  All JavaScript plugins require JQuery, hence Bootstrap.min.js require a JQuery file to be able to run. This is because JQuery contains JavaScript functions which support all the functions provided by Bootstrap. Without them, these features provided by Bootstrap would not run.
+
+Q2.  Why is JavaScript at the end of the code a good practice?
+A2.  Putting the script at the beginning causes it to be loaded first, which can cause the website to load slowly. Putting it at the end give the impresion that the website is fast. However, putting the JavaScript code at the top of the page is useful whenever the JavaScript programming has an immediate impact on the user interface
+
+Q3.  What is Data Toggle and Data Target?
+A3.  Data- Toggle attribute allows toggling the visibility of components in Bootstrap.
+     The data-target attribute contains a CSS selector that points to the element that will be toggled.
+
+Q4.  What does min signify in bootstrap.min.js?
+A4. 'Min' is short for Minify. It signifies the Minified JQuery file, which 
+
+Q5.  What is Container and Container-Fluid?
+
+Q6.  What is the difference between butting <script> tag in the <body> tag, and in the <header> tag ?
+
+Q7. What is Offset?
+
+Q8 . What is Media Query, and where is it used?
