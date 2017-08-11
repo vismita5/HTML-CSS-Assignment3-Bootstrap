@@ -134,7 +134,7 @@ footer{
 
 
 .BreakingNewsPanel{
-    height:40vh;
+    height : 30vh;
     background-color: #FFE4E1;
     padding:20px;/*outside padding*/
     border-radius: 2px;
