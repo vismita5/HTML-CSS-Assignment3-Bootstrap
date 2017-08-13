@@ -11,44 +11,34 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
 			<div class="navbar-header">
-
-				<a class="navbar-brand" href="index.html">News.</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" >News.</a>
 			</div>
-			<div class="col-sm-3"></div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav ">
-					<li>
-						<a href="world.html">World</a>
-					</li>
-					<li>
-						<a href="business.html">Business</a>
-					</li>
-					<li>
-						<a href="sport.html">Sport</a>
-					</li>
-					<li>
-						<a href="entertainment.html">Entertainment</a>
-					</li>
-					<li>
-						<a href="sciencetech.html">Science &amp Tech</a>
-					</li>
-					<li>
-						<a href="travel.html">Travel</a>
-					</li>
-
-
-
+			<div class="collapse navbar-collapse navbar-center" id="Navbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="Index.html">Home</a></li>
+					<li><a href="world.html">World</a></li>
+					<li><a href="business.html">Business</a></li> 	
+					<li><a href="sport.html">Sport</a></li> 
+					<li><a href="entertainment.html">Entertainment</a></li>
+					<li><a href="sciencetech.html">Science &amp Tech</a></li>
+					<li><a href="travel.html">Travel</a></li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container -->
 	</nav>
+
+
+
+
 	
 	<header id="Carousel" class="carousel slide">
 		<!-- Indicators -->
@@ -91,28 +81,28 @@
 	</header>
 	
 
-	<div>
+	<div class="container-fluid background">
 		<h1  class = "BreakingNews"> Breaking News.</h1>
-		<div class = "BreakingNewsPanel col-lg-12 col-md-12 col-sm-12">
-			<div class = "NewsItem col-lg-3 col-md-6 col-sm-6">
+		<div class = "BreakingNewsPanel container">
+			<div class = "NewsItem container col-lg-3 col-md-6 col-sm-12">
 				<div class ="NewsImage" style="background-image:url('../Images/luisa-ortega.jpg');" >
 					<div class="NewsItemText">Luisa Ortega</div>
 				</div>
 
 			</div>
-			<div class = "NewsItem col-lg-3 col-md-6 col-sm-6">
+			<div class = "NewsItem container col-lg-3 col-md-6 col-sm-12">
 				<div class ="NewsImage" style="background-image:url('../Images/hair-thieves.jpg');" >
 					<div class="NewsItemText">Hair Thieves</div>
 				</div>
 
 			</div>
-			<div class = "NewsItem col-lg-3 col-md-6 col-sm-6">
+			<div class = "NewsItem container col-lg-3 col-md-6 col-sm-12">
 				<div class ="NewsImage" style="background-image:url('../Images/moth.jpg');" >
 					<div class="NewsItemText">Moths</div>	
 				</div>
 
 			</div>
-			<div class = "NewsItem col-lg-3 col-md-6 col-sm-6">
+			<div class = "NewsItem container col-lg-3 col-md-6 col-sm-12">
 				<div class ="NewsImage" style="background-image:url('../Images/australian-nurse.jpg');" >
 					<div class="NewsItemText">Surrogate Australian Nurse</div>	
 				</div>
@@ -122,10 +112,10 @@
 	</div>
 
 	<!-- More Information  -->
-	<div class ="info col-lg-8">
-		<div class="row">
+	<div class ="MoreNews container-fluid info col-lg-8 col-md-8 col-sm-12">
+		<div class="row ">
 			
-			<div class="col-lg-6">
+			<div class="container col-lg-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4><i class="fa fa-fw fa-briefcase"></i> Business.</h4>
@@ -140,7 +130,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="container col-lg-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4><i class="fa fa-fw fa-futbol-o"></i> Sport.</h4>
@@ -155,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="container col-lg-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4><i class="fa fa-fw fa-television "></i> Entertainment.</h4>
@@ -170,7 +160,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="container col-lg-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4><i class="fa fa-fw fa-flask"></i> Science &amp Tech.</h4>
@@ -185,7 +175,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6">
+			<div class="container col-lg-6">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4><i class="fa fa-fw fa-plane"></i> Travel.</h4>
@@ -207,56 +197,86 @@
 	<!-- End News Section -->
 
 	<!-- Start side extra information section  -->
-	<div class = "ExtraInfo col-lg-4 row">
-		<div class="col-lg-12 col-md-4 col-sm-4">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4><i class="fa fa-fw fa-cloud"></i> Weather</h4>
-				</div>
-				<div class="panel-body">
-					<p>
-						<h4><a href = "http://www.bbc.com/news/live/business-40853317">Business Live: FTSE 100 falls again</a></h4>
-						<h4><a href = "http://www.bbc.com/news/business-40895079">Snap shares plunge 14% as losses mount</a></h4>
-						<h4><a href = "http://www.bbc.com/news/business-40887040">Wall Street lower on US-North Korea tensions</a></h4>
-					</p>
-					<a href="#" class="btn btn-default">More...</a>
-				</div>
+	<div class = " container-fluid info ExtraInfo col-lg-4 col-md-4 col-sm-12 row">
+		
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h4><i class="fa fa-fw fa-cloud"></i> Weather</h4>
+			</div>
+			<div class="panel-body">
+				<p>
+					<h4><a href = "http://www.bbc.com/news/live/business-40853317">Business Live: FTSE 100 falls again</a></h4>
+					<h4><a href = "http://www.bbc.com/news/business-40895079">Snap shares plunge 14% as losses mount</a></h4>
+					<h4><a href = "http://www.bbc.com/news/business-40887040">Wall Street lower on US-North Korea tensions</a></h4>
+				</p>
+				<a href="#" class="btn btn-default">More...</a>
 			</div>
 		</div>
-		<div class="col-lg-12 col-md-4 col-sm-4">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4><i class="fa fa-fw fa-line-chart"></i> Nifty</h4>
-				</div>
-				<div class="panel-body">
-					<p>
-						<h4><a href = "http://www.bbc.com/news/live/business-40853317">Business Live: FTSE 100 falls again</a></h4>
-						<h4><a href = "http://www.bbc.com/news/business-40895079">Snap shares plunge 14% as losses mount</a></h4>
-						<h4><a href = "http://www.bbc.com/news/business-40887040">Wall Street lower on US-North Korea tensions</a></h4>
-					</p>
-					<a href="#" class="btn btn-default">More...</a>
-				</div>
+		
+		
+		<div class="panel panel-success">
+			<div class="panel-heading">
+				<h4><i class="fa fa-fw fa-line-chart"></i> Nifty</h4>
 			</div>
-		</div>
+			<div class="panel-body center">
+				<div class="markets-index-promo">
+
+				<table class="markets-index-promo__table">
+						<thead class="off-screen">
+							<tr><th scope="col">Index</th>
+								<th scope="col">Value</th>
+								<th scope="col">Change</th>
+							</tr></thead>
+							<tbody>
+								<tr class="markets-index-promo__row">
+									<th scope="row" class="markets-index-promo__index-name"><a href="/news/business/markets/europe/lse_ukx" class="right-arrow">FTSE 100</a></th>
+									<td>7,309.96</td>
+									<td class="down">-1.08%</td>
+								</tr>
+								<tr class="markets-index-promo__row">
+									<th scope="row" class="markets-index-promo__index-name"><a href="/news/business/markets/us/djse_indu" class="right-arrow">Dow Jones</a></th>
+									<td>21,858.32</td>
+									<td class="up">+0.07%</td>
+								</tr>
+								<tr class="markets-index-promo__row">
+									<th scope="row" class="markets-index-promo__index-name"><a href="/news/business/markets/us/nasdaq_ixic" class="right-arrow">Nasdaq</a></th>
+									<td>6,256.56</td>
+									<td class="up">+0.64%</td>
+								</tr>
+								<tr class="markets-index-promo__row">
+									<th scope="row" class="markets-index-promo__index-name"><a href="/news/business/markets/asiapacific/tsenik_tokn" class="right-arrow">Nikkei 225</a></th>
+									<td>19,729.74</td>
+									<td class="down">-0.05%</td>
+								</tr>
+							</tbody>
+							<tfoot class="markets-index-promo__foot">
+								<tr><td colspan="3">15 minute delay. Last updated <span id="markets-index-promo__timestamp">13:33</span></td>
+								</tr></tfoot>
+							</table>
+						</div>
+
+					</div>
+				</div>
+
 
 	</div>
 
 
-	<!-- End side extra information section  -->
+			<!-- End side extra information section  -->
 
 
-	<footer class="container col-sm-12 ">
-		<div class="social-icons">
-			<a class="text"> Follow us on    :     </a>
-			<a href="" class="social-icon"> <i class="fa fa-facebook"> </i></a>
-			<a href="" class="social-icon"> <i class="fa fa-twitter"> </i></a>
-			<a href="" class="social-icon"> <i class="fa fa-rss"></i> </a>
-			<a href="" class="social-icon"> <i class="fa fa-youtube"> </i></a>
-			<a href="" class="social-icon"> <i class="fa fa-linkedin"> </i></a>
-			<a href="" class="social-icon"> <i class="fa fa-google-plus"> </i></a>
-		</div>
-		<a href="" class="center">About | Contact Us</a>
-	</footer>
-</body>
-</html>
+			<footer class="container col-sm-12 ">
+				<div class="social-icons">
+					<a class="text"> Follow us on    :     </a>
+					<a href="" class="social-icon"> <i class="fa fa-facebook"> </i></a>
+					<a href="" class="social-icon"> <i class="fa fa-twitter"> </i></a>
+					<a href="" class="social-icon"> <i class="fa fa-rss"></i> </a>
+					<a href="" class="social-icon"> <i class="fa fa-youtube"> </i></a>
+					<a href="" class="social-icon"> <i class="fa fa-linkedin"> </i></a>
+					<a href="" class="social-icon"> <i class="fa fa-google-plus"> </i></a>
+				</div>
+				<a href="" class="center">About | Contact Us</a>
+			</footer>
+		</body>
+		</html>
 
